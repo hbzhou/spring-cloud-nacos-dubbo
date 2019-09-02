@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: nacos-dubbo-consumer
+  main:
+    allow-bean-definition-overring: true
+
+dubbo:
+  scan:
+    base-packages: com.htisec.nacos.dubbo.consumer.controller
+  protocol:
+    name: dubbo
+    port: 20881
+    serialization: kryo
+  registry:
+    address: nacos://47.106.198.217:8848
+  provider:
+    loadbalance: roundrobin
+
+server:
+  port: 8089
+
+endpoints:
+  dubbo:
+    enabled: true
+management:
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: threadpool
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

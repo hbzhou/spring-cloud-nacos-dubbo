@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-api/nacos-dubbo-provider-api.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-api/nacos-dubbo-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-service/nacos-dubbo-provider-service.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-service/nacos-dubbo-provider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/spring-cloud-alibaba-nacos-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/spring-cloud-alibaba-nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-nacos-dubbo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-nacos-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-dubbo-consumer/spring-cloud-nacos-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-dubbo-consumer/spring-cloud-nacos-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/spring-cloud-nacos-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-dubbo-provider/spring-cloud-nacos-dubbo-provider.iml" />
+    </modules>
+  </component>
+</project>

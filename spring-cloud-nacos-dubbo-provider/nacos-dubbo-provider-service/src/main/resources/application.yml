@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: nacos-dubbo-provider
+  main:
+    allow-bean-definition-overring: true
+
+dubbo:
+  scan:
+    base-packages: com.htisec.nacos.dubbo.provider.service.impl
+  protocol:
+    name: dubbo
+    port: 20882
+    serialization: kryo
+  registry:
+    address: nacos://47.106.198.217:8848
+
+server:
+  port: 8088
