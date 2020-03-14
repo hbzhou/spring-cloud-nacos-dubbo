@@ -8,3 +8,4 @@
 /spring-cloud-nacos-dubbo-provider/*.iml
 /spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-api/*.iml
 /spring-cloud-nacos-dubbo-provider/nacos-dubbo-provider-service/*.iml
+/.idea
